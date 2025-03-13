@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: url('03.png') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            text-align: center;
+        }
+        .welcome-container {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .welcome-container h1 {
+            font-size: 28px;
+            color: skyblue;
+            text-transform: capitalize;
+        }
+        .welcome-container p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: green;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-learn {
+            background-color: black;
+            color: white;
+        }
+        .btn-learn:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-container">
+        <h1>Welcome to my Digital Gardening Planner</h1>
+        <p>Day by day you can track your gardening plan</p>
+        <div class="btn-container">
+            <a href="04.html" class="btn btn-learn"><h3>Learn more</h3></a>
+        </div>
+    </div>
+
+</body>
+</html>
